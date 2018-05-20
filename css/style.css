@@ -1,0 +1,19 @@
+html{
+  background: blue;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.mid-column{
+   text-align: center;
+}
+
+.styler{
+  background: white;
+  border-left: 5px solid orange;
+  text-align: left;
+  font-size: 20px;
+}
